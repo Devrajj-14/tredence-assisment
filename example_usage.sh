@@ -68,7 +68,7 @@ print(f\"  Execution steps: {len(data['execution_log'])}\")
 echo ""
 
 echo "=========================================="
-echo "✅ Workflow completed successfully!"
+echo "Workflow completed successfully!"
 echo "=========================================="
 echo ""
 echo "Server is running at: http://localhost:8000"
