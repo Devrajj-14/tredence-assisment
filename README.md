@@ -71,10 +71,10 @@ curl -X POST "http://localhost:8000/graph/run" \
 
 ## Example Results
 ```
-✅ Input: 1231 characters
-✅ Output: 69 characters (94.4% compression)
-✅ Execution: ~2.5ms
-✅ Quality: Coherent, meaningful summary
+Input: 1231 characters
+Output: 69 characters (94.4% compression)
+Execution: ~2.5ms
+Quality: Coherent, meaningful summary
 ```
 
 Visit `http://localhost:8000/docs` for interactive API documentation.
