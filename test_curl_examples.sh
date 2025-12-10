@@ -57,10 +57,10 @@ for i in {1..15}; do
     
     # Check if completed or failed
     if echo $STATUS_RESPONSE | grep -q '"status":"completed"'; then
-        echo "  ✅ Workflow completed!"
+        echo " Workflow completed!"
         break
     elif echo $STATUS_RESPONSE | grep -q '"status":"failed"'; then
-        echo "  ❌ Workflow failed!"
+        echo "  Workflow failed!"
         break
     fi
     
